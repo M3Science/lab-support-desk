@@ -1,0 +1,5 @@
+priority,description,response_minutes,resolve_hours
+P1,Critical: lab or patient care stopped,15,4
+P2,High: a workflow or instrument is blocked,30,8
+P3,Medium: single user or workaround available,240,24
+P4,Low: request or question,480,72

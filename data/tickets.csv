@@ -1,0 +1,241 @@
+ticket_id,opened_at,priority,category,subcategory,location,requester_role,assigned_tier,escalated,first_response_at,resolved_at,status,kb_article,reopened,resolution
+INC100001,2026-01-05 16:37,P3,Label Printer,Labels blank or faded,Core Lab,Provider,1,0,2026-01-05 17:35,2026-01-06 12:55,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100002,2026-01-06 00:21,P2,Analyzer Interface,Interface queue backed up,Blood Bank,Provider,3,1,2026-01-06 00:37,2026-01-06 19:43,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100003,2026-01-06 07:12,P4,LIS Access,Missing security role,Outpatient Draw,Bench tech,2,0,2026-01-06 13:01,2026-01-08 16:05,Resolved,KB-009,0,Added security role after manager approval
+INC100004,2026-01-07 03:21,P3,Order / Accession,Order cancelled after collection,Microbiology,Phlebotomist,2,0,2026-01-07 04:43,2026-01-07 20:53,Resolved,,0,Reinstated order and notified provider
+INC100005,2026-01-07 08:04,P3,LIS Access,Password expired,Core Lab,Lab supervisor,1,0,2026-01-07 15:48,2026-01-09 02:09,Resolved,KB-002,0,Reset password and verified login
+INC100006,2026-01-07 09:06,P2,Result Correction,Corrected report needed,Core Lab,Nurse,2,0,2026-01-07 09:19,2026-01-07 14:23,Resolved,KB-005,0,Issued corrected report and notified provider
+INC100007,2026-01-08 03:50,P3,LIS Access,Password expired,Core Lab,Nurse,1,0,2026-01-08 05:50,2026-01-08 11:32,Resolved,KB-002,0,Reset password and verified login
+INC100008,2026-01-09 06:21,P2,Analyzer Interface,Results not crossing to LIS,Blood Bank,Lab supervisor,3,1,2026-01-09 06:39,2026-01-10 00:14,Resolved,KB-003,0,Restarted interface connection and resent results
+INC100009,2026-01-09 08:45,P2,Analyzer Interface,Interface queue backed up,Core Lab,Provider,2,0,2026-01-09 09:27,2026-01-09 11:25,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100010,2026-01-10 11:29,P3,Label Printer,Wrong default printer,Outpatient Draw,Nurse,1,0,2026-01-10 13:53,2026-01-11 12:08,Resolved,KB-001,1,Reassigned workstation default printer
+INC100011,2026-01-10 16:15,P3,Order / Accession,Order cancelled after collection,Microbiology,Bench tech,2,0,2026-01-10 17:43,2026-01-11 03:48,Resolved,KB-004,0,Reinstated order and notified provider
+INC100012,2026-01-11 08:40,P3,Label Printer,Printer not printing,Outpatient Draw,Provider,1,0,2026-01-11 17:45,2026-01-11 20:39,Resolved,KB-001,0,Cleared jam and restarted printer
+INC100013,2026-01-11 11:19,P3,Worklist,Worklist not refreshing,Outpatient Draw,Phlebotomist,1,0,2026-01-11 12:22,2026-01-11 16:30,Resolved,KB-006,0,Refreshed session and cleared cache
+INC100014,2026-01-11 15:41,P4,LIS Access,Missing security role,Core Lab,Bench tech,2,0,2026-01-11 19:11,2026-01-13 21:54,Resolved,KB-009,0,Added security role after manager approval
+INC100015,2026-01-11 19:21,P4,LIS Access,Missing security role,Blood Bank,Bench tech,2,0,2026-01-11 23:23,2026-01-13 02:18,Resolved,KB-009,0,Added security role after manager approval
+INC100016,2026-01-12 01:37,P3,Order / Accession,Duplicate order,Outpatient Draw,Phlebotomist,1,0,2026-01-12 04:47,2026-01-12 19:40,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100017,2026-01-12 07:00,P3,Label Printer,Labels blank or faded,Outpatient Draw,Nurse,1,0,2026-01-12 09:59,2026-01-12 15:23,Resolved,,0,Replaced ribbon and label stock
+INC100018,2026-01-12 07:26,P2,Analyzer Interface,Interface queue backed up,Core Lab,Lab supervisor,2,0,2026-01-12 07:32,2026-01-12 13:33,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100019,2026-01-12 07:31,P3,LIS Access,Account locked out,Outpatient Draw,Lab supervisor,1,0,2026-01-12 16:53,2026-01-12 11:19,Resolved,KB-002,0,Unlocked account and verified login
+INC100020,2026-01-12 08:02,P3,LIS Access,Account locked out,Emergency Dept,Nurse,1,0,2026-01-12 08:54,2026-01-12 15:28,Resolved,,0,Unlocked account and verified login
+INC100021,2026-01-12 08:32,P3,LIS Access,Account locked out,Outpatient Draw,Nurse,1,0,2026-01-12 11:47,2026-01-12 19:46,Resolved,KB-002,0,Unlocked account and verified login
+INC100022,2026-01-12 16:33,P2,Analyzer Interface,Instrument offline in LIS,Core Lab,Nurse,2,0,2026-01-12 16:49,2026-01-12 19:51,Resolved,KB-003,0,Re-established instrument connection
+INC100023,2026-01-13 19:55,P4,Downtime,Planned downtime question,Blood Bank,Nurse,1,0,2026-01-14 00:36,2026-01-14 07:07,Resolved,KB-008,0,Sent downtime schedule and procedure
+INC100024,2026-01-14 11:22,P3,Worklist,Worklist not refreshing,ICU,Nurse,1,0,2026-01-14 13:21,2026-01-14 19:10,Resolved,KB-006,0,Refreshed session and cleared cache
+INC100025,2026-01-14 12:16,P2,Result Correction,Result filed to wrong test,Blood Bank,Lab supervisor,2,0,2026-01-14 12:35,2026-01-14 18:14,Resolved,KB-005,0,Issued corrected report and notified provider
+INC100026,2026-01-14 13:32,P1,Downtime,Unplanned LIS downtime,Blood Bank,Phlebotomist,3,1,2026-01-14 13:44,2026-01-14 16:35,Resolved,KB-008,0,Vendor restored service; downtime results backloaded
+INC100027,2026-01-14 15:25,P1,Downtime,Unplanned LIS downtime,Blood Bank,Lab supervisor,3,1,2026-01-14 15:35,2026-01-14 18:41,Resolved,KB-008,0,Vendor restored service; downtime results backloaded
+INC100028,2026-01-14 21:07,P2,Analyzer Interface,Interface queue backed up,Core Lab,Lab supervisor,3,1,2026-01-14 21:17,2026-01-15 18:59,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100029,2026-01-15 19:04,P3,Label Printer,Wrong default printer,ICU,Phlebotomist,1,0,2026-01-15 22:30,2026-01-16 08:14,Resolved,KB-001,0,Reassigned workstation default printer
+INC100030,2026-01-16 14:32,P3,LIS Access,Password expired,Emergency Dept,Provider,1,0,2026-01-16 18:00,2026-01-18 12:27,Resolved,KB-002,0,Reset password and verified login
+INC100031,2026-01-16 16:55,P3,Label Printer,Labels blank or faded,Core Lab,Phlebotomist,1,0,2026-01-16 18:53,2026-01-16 21:35,Resolved,,0,Replaced ribbon and label stock
+INC100032,2026-01-16 20:28,P3,Order / Accession,Duplicate order,Core Lab,Provider,1,0,2026-01-16 22:25,2026-01-17 09:32,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100033,2026-01-17 11:44,P2,Analyzer Interface,Interface queue backed up,Core Lab,Bench tech,2,0,2026-01-17 12:07,2026-01-17 13:34,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100034,2026-01-17 11:53,P1,Downtime,Unplanned LIS downtime,Core Lab,Nurse,3,1,2026-01-17 12:02,2026-01-17 14:09,Resolved,KB-008,0,Vendor restored service; downtime results backloaded
+INC100035,2026-01-17 22:13,P3,Label Printer,Wrong default printer,ICU,Nurse,1,0,2026-01-17 23:27,2026-01-18 04:44,Resolved,KB-001,0,Reassigned workstation default printer
+INC100036,2026-01-18 00:16,P2,QC Lockout,New QC lot not built,Core Lab,Lab supervisor,2,0,2026-01-18 00:36,2026-01-18 02:42,Resolved,KB-007,0,Built QC lot and ranges in LIS
+INC100037,2026-01-18 06:06,P3,Label Printer,Labels blank or faded,Emergency Dept,Nurse,1,0,2026-01-18 09:09,2026-01-18 21:57,Resolved,,0,Replaced ribbon and label stock
+INC100038,2026-01-19 09:27,P3,LIS Access,Account locked out,Outpatient Draw,Provider,1,0,2026-01-19 10:44,2026-01-20 05:19,Resolved,,0,Unlocked account and verified login
+INC100039,2026-01-19 10:07,P3,Label Printer,Wrong default printer,Emergency Dept,Lab supervisor,1,0,2026-01-19 12:47,2026-01-19 23:06,Resolved,KB-001,1,Reassigned workstation default printer
+INC100040,2026-01-19 15:34,P1,Downtime,Unplanned LIS downtime,Blood Bank,Nurse,3,1,2026-01-19 15:41,2026-01-19 17:26,Resolved,,0,Vendor restored service; downtime results backloaded
+INC100041,2026-01-19 17:10,P3,LIS Access,Password expired,Blood Bank,Bench tech,1,0,2026-01-19 20:34,2026-01-20 06:26,Resolved,KB-002,0,Reset password and verified login
+INC100042,2026-01-19 19:41,P3,Label Printer,Wrong default printer,Outpatient Draw,Lab supervisor,1,0,2026-01-19 21:05,2026-01-20 06:52,Resolved,KB-001,0,Reassigned workstation default printer
+INC100043,2026-01-20 02:29,P3,Label Printer,Labels blank or faded,Core Lab,Lab supervisor,1,0,2026-01-20 05:18,2026-01-20 14:25,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100044,2026-01-21 09:03,P3,Label Printer,Wrong default printer,Emergency Dept,Phlebotomist,1,0,2026-01-21 11:57,2026-01-22 16:43,Resolved,KB-001,0,Reassigned workstation default printer
+INC100045,2026-01-21 11:58,P2,Result Correction,Result filed to wrong test,Core Lab,Bench tech,2,0,2026-01-21 12:10,2026-01-21 14:04,Resolved,,0,Issued corrected report and notified provider
+INC100046,2026-01-22 02:34,P2,QC Lockout,New QC lot not built,Core Lab,Phlebotomist,2,0,2026-01-22 02:54,2026-01-22 09:15,Resolved,KB-007,0,Built QC lot and ranges in LIS
+INC100047,2026-01-22 09:15,P2,QC Lockout,QC failure blocking results,Core Lab,Phlebotomist,2,0,2026-01-22 09:23,2026-01-22 12:37,Resolved,KB-007,0,"Reviewed QC, recalibrated, released hold"
+INC100048,2026-01-22 12:18,P3,Label Printer,Printer not printing,Blood Bank,Lab supervisor,1,0,2026-01-22 14:46,2026-01-23 03:11,Resolved,KB-001,0,Cleared jam and restarted printer
+INC100049,2026-01-22 15:04,P3,LIS Access,Account locked out,ICU,Lab supervisor,1,0,2026-01-22 23:06,2026-01-23 02:03,Resolved,KB-002,0,Unlocked account and verified login
+INC100050,2026-01-22 16:31,P2,QC Lockout,QC failure blocking results,Core Lab,Lab supervisor,2,0,2026-01-22 16:57,2026-01-22 22:47,Resolved,,1,"Reviewed QC, recalibrated, released hold"
+INC100051,2026-01-22 19:29,P4,Downtime,Planned downtime question,Blood Bank,Phlebotomist,1,0,2026-01-22 22:56,2026-01-25 04:32,Resolved,,1,Sent downtime schedule and procedure
+INC100052,2026-01-22 20:46,P2,Result Correction,Corrected report needed,Blood Bank,Provider,2,0,2026-01-22 21:00,2026-01-23 01:09,Resolved,KB-005,0,Issued corrected report and notified provider
+INC100053,2026-01-24 07:13,P3,Order / Accession,Duplicate order,Core Lab,Lab supervisor,1,0,2026-01-24 08:11,2026-01-25 19:17,Resolved,,0,Cancelled duplicate with provider approval
+INC100054,2026-01-24 16:50,P3,Label Printer,Wrong default printer,Emergency Dept,Provider,1,0,2026-01-24 18:58,2026-01-25 03:10,Resolved,,0,Reassigned workstation default printer
+INC100055,2026-01-24 22:28,P2,Analyzer Interface,Instrument offline in LIS,Core Lab,Nurse,3,1,2026-01-24 22:35,2026-01-25 18:36,Resolved,,0,Re-established instrument connection
+INC100056,2026-01-25 07:44,P2,Analyzer Interface,Results not crossing to LIS,Microbiology,Phlebotomist,2,0,2026-01-25 07:50,2026-01-25 10:58,Resolved,,0,Restarted interface connection and resent results
+INC100057,2026-01-25 10:13,P3,Order / Accession,Duplicate order,Outpatient Draw,Nurse,1,0,2026-01-25 12:55,2026-01-25 15:00,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100058,2026-01-25 16:35,P3,Label Printer,Labels blank or faded,Outpatient Draw,Lab supervisor,1,0,2026-01-25 21:24,2026-01-26 11:01,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100059,2026-01-25 17:06,P2,QC Lockout,New QC lot not built,Core Lab,Bench tech,2,0,2026-01-25 17:16,2026-01-25 22:52,Resolved,,0,Built QC lot and ranges in LIS
+INC100060,2026-01-26 15:18,P2,Analyzer Interface,Instrument offline in LIS,Core Lab,Lab supervisor,2,0,2026-01-26 15:41,2026-01-26 20:42,Resolved,KB-003,0,Re-established instrument connection
+INC100061,2026-01-27 08:20,P1,Downtime,Unplanned LIS downtime,Outpatient Draw,Nurse,3,1,2026-01-27 08:23,2026-01-27 10:53,Resolved,KB-008,0,Vendor restored service; downtime results backloaded
+INC100062,2026-01-27 10:46,P3,Label Printer,Wrong default printer,Outpatient Draw,Phlebotomist,1,0,2026-01-27 11:34,2026-01-28 02:09,Resolved,,0,Reassigned workstation default printer
+INC100063,2026-01-27 13:31,P2,Analyzer Interface,Instrument offline in LIS,Core Lab,Phlebotomist,3,1,2026-01-27 13:46,2026-01-27 19:10,Resolved,KB-003,0,Re-established instrument connection
+INC100064,2026-01-27 22:40,P2,QC Lockout,QC failure blocking results,Core Lab,Lab supervisor,2,0,2026-01-27 22:55,2026-01-28 05:02,Resolved,KB-007,0,"Reviewed QC, recalibrated, released hold"
+INC100065,2026-01-28 12:22,P3,Label Printer,Labels blank or faded,Outpatient Draw,Nurse,1,0,2026-01-28 14:50,2026-01-29 06:45,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100066,2026-01-28 17:49,P3,Label Printer,Labels blank or faded,ICU,Provider,1,0,2026-01-28 21:06,2026-01-29 04:57,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100067,2026-01-29 07:54,P3,LIS Access,Password expired,Outpatient Draw,Provider,1,0,2026-01-29 10:08,2026-01-29 12:57,Resolved,KB-002,0,Reset password and verified login
+INC100068,2026-01-29 08:30,P2,QC Lockout,QC failure blocking results,Core Lab,Lab supervisor,2,0,2026-01-29 08:47,2026-01-29 11:17,Resolved,KB-007,0,"Reviewed QC, recalibrated, released hold"
+INC100069,2026-01-30 13:08,P3,LIS Access,Account locked out,Outpatient Draw,Nurse,1,0,2026-01-30 14:11,2026-01-31 03:30,Resolved,KB-002,0,Unlocked account and verified login
+INC100070,2026-01-30 17:08,P2,Analyzer Interface,Results not crossing to LIS,Blood Bank,Bench tech,3,1,2026-01-30 17:32,2026-01-31 14:58,Resolved,,0,Restarted interface connection and resent results
+INC100071,2026-01-30 17:15,P2,Analyzer Interface,Results not crossing to LIS,Microbiology,Bench tech,2,0,2026-01-30 17:33,2026-01-30 21:04,Resolved,KB-003,0,Restarted interface connection and resent results
+INC100072,2026-01-30 23:58,P4,Downtime,Planned downtime question,Microbiology,Nurse,1,0,2026-01-31 06:47,2026-02-01 00:34,Resolved,KB-008,0,Sent downtime schedule and procedure
+INC100073,2026-01-31 15:54,P3,Label Printer,Labels blank or faded,Emergency Dept,Provider,1,0,2026-01-31 19:14,2026-02-01 05:41,Resolved,,1,Replaced ribbon and label stock
+INC100074,2026-01-31 17:37,P1,Downtime,Unplanned LIS downtime,Outpatient Draw,Nurse,3,1,2026-01-31 17:46,2026-01-31 19:24,Resolved,,0,Vendor restored service; downtime results backloaded
+INC100075,2026-02-01 05:06,P3,LIS Access,Password expired,Microbiology,Bench tech,1,0,2026-02-01 06:58,2026-02-02 00:52,Resolved,KB-002,0,Reset password and verified login
+INC100076,2026-02-02 01:59,P4,Downtime,Planned downtime question,Core Lab,Nurse,1,0,2026-02-02 04:21,2026-02-03 03:14,Resolved,KB-008,0,Sent downtime schedule and procedure
+INC100077,2026-02-02 07:09,P3,LIS Access,Account locked out,Outpatient Draw,Provider,1,0,2026-02-02 16:12,2026-02-02 12:18,Resolved,,0,Unlocked account and verified login
+INC100078,2026-02-02 09:26,P3,Worklist,Pending list missing specimens,Outpatient Draw,Nurse,2,0,2026-02-02 10:27,2026-02-02 19:17,Resolved,KB-006,0,Corrected worklist filter build
+INC100079,2026-02-02 23:09,P2,QC Lockout,QC failure blocking results,Core Lab,Bench tech,2,0,2026-02-02 23:26,2026-02-03 04:29,Resolved,,0,"Reviewed QC, recalibrated, released hold"
+INC100080,2026-02-02 23:58,P2,Analyzer Interface,Results not crossing to LIS,Core Lab,Bench tech,3,1,2026-02-03 00:07,2026-02-03 21:40,Resolved,KB-003,0,Restarted interface connection and resent results
+INC100081,2026-02-03 03:26,P2,Analyzer Interface,Instrument offline in LIS,Core Lab,Provider,2,0,2026-02-03 03:48,2026-02-03 04:39,Resolved,,0,Re-established instrument connection
+INC100082,2026-02-03 04:09,P3,Label Printer,Wrong default printer,Core Lab,Lab supervisor,1,0,2026-02-03 05:07,2026-02-03 18:27,Resolved,,0,Reassigned workstation default printer
+INC100083,2026-02-03 16:00,P2,QC Lockout,QC failure blocking results,Core Lab,Bench tech,2,0,2026-02-03 16:15,2026-02-03 19:20,Resolved,,0,"Reviewed QC, recalibrated, released hold"
+INC100084,2026-02-04 08:20,P3,LIS Access,Password expired,ICU,Bench tech,1,0,2026-02-04 09:46,2026-02-04 23:35,Resolved,KB-002,0,Reset password and verified login
+INC100085,2026-02-04 08:52,P3,Label Printer,Wrong default printer,Outpatient Draw,Bench tech,1,0,2026-02-04 12:19,2026-02-04 22:08,Resolved,KB-001,0,Reassigned workstation default printer
+INC100086,2026-02-04 13:14,P3,Worklist,Worklist not refreshing,Emergency Dept,Bench tech,1,0,2026-02-04 15:21,2026-02-05 08:10,Resolved,,0,Refreshed session and cleared cache
+INC100087,2026-02-04 17:23,P3,Label Printer,Printer not printing,Emergency Dept,Lab supervisor,1,0,2026-02-04 22:38,2026-02-05 04:32,Resolved,KB-001,0,Cleared jam and restarted printer
+INC100088,2026-02-04 19:51,P3,Order / Accession,Order not found for specimen,Microbiology,Provider,1,0,2026-02-05 04:22,2026-02-05 05:01,Resolved,,0,Located order and relinked specimen
+INC100089,2026-02-05 02:44,P3,Label Printer,Wrong default printer,Core Lab,Bench tech,1,0,2026-02-05 04:42,2026-02-05 13:16,Resolved,KB-001,0,Reassigned workstation default printer
+INC100090,2026-02-05 12:41,P3,Label Printer,Wrong default printer,Outpatient Draw,Nurse,1,0,2026-02-05 15:47,2026-02-06 08:31,Resolved,KB-001,0,Reassigned workstation default printer
+INC100091,2026-02-05 13:10,P3,Label Printer,Wrong default printer,ICU,Phlebotomist,1,0,2026-02-05 14:48,2026-02-06 01:03,Resolved,KB-001,0,Reassigned workstation default printer
+INC100092,2026-02-06 09:07,P3,Label Printer,Printer not printing,Core Lab,Provider,1,0,2026-02-06 10:58,2026-02-07 00:32,Resolved,,0,Cleared jam and restarted printer
+INC100093,2026-02-07 02:38,P3,LIS Access,Password expired,Emergency Dept,Nurse,1,0,2026-02-07 04:18,2026-02-07 16:25,Resolved,KB-002,0,Reset password and verified login
+INC100094,2026-02-08 07:20,P2,Analyzer Interface,Interface queue backed up,Core Lab,Bench tech,2,0,2026-02-08 07:42,2026-02-08 08:51,Resolved,,0,Cleared stuck message and released queue
+INC100095,2026-02-08 13:16,P3,Label Printer,Labels blank or faded,Outpatient Draw,Lab supervisor,1,0,2026-02-08 15:27,2026-02-10 10:03,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100096,2026-02-08 14:48,P3,Label Printer,Wrong default printer,Outpatient Draw,Provider,1,0,2026-02-08 16:50,2026-02-08 23:04,Resolved,KB-001,0,Reassigned workstation default printer
+INC100097,2026-02-08 18:04,P3,Label Printer,Printer not printing,Core Lab,Nurse,1,0,2026-02-08 21:10,2026-02-09 13:08,Resolved,KB-001,0,Cleared jam and restarted printer
+INC100098,2026-02-08 18:16,P3,LIS Access,Password expired,Emergency Dept,Nurse,1,0,2026-02-08 20:00,2026-02-08 23:48,Resolved,KB-002,0,Reset password and verified login
+INC100099,2026-02-09 07:16,P3,LIS Access,Account locked out,Blood Bank,Lab supervisor,1,0,2026-02-09 09:22,2026-02-10 00:21,Resolved,,0,Unlocked account and verified login
+INC100100,2026-02-09 08:08,P3,Order / Accession,Order not found for specimen,Outpatient Draw,Bench tech,1,0,2026-02-09 11:25,2026-02-09 13:11,Resolved,KB-004,0,Located order and relinked specimen
+INC100101,2026-02-09 09:36,P2,Analyzer Interface,Instrument offline in LIS,Microbiology,Provider,2,0,2026-02-09 09:50,2026-02-10 01:15,Resolved,KB-003,0,Re-established instrument connection
+INC100102,2026-02-09 11:09,P3,Worklist,Pending list missing specimens,Core Lab,Lab supervisor,2,0,2026-02-09 12:38,2026-02-09 19:42,Resolved,KB-006,0,Corrected worklist filter build
+INC100103,2026-02-09 19:08,P2,QC Lockout,QC failure blocking results,Microbiology,Phlebotomist,2,0,2026-02-09 19:28,2026-02-10 00:58,Resolved,KB-007,0,"Reviewed QC, recalibrated, released hold"
+INC100104,2026-02-09 19:09,P2,QC Lockout,QC failure blocking results,Blood Bank,Lab supervisor,3,1,2026-02-09 19:18,2026-02-10 02:12,Resolved,,0,"Reviewed QC, recalibrated, released hold"
+INC100105,2026-02-10 09:41,P2,Analyzer Interface,Results not crossing to LIS,Core Lab,Bench tech,3,1,2026-02-10 09:51,2026-02-11 02:14,Resolved,KB-003,0,Restarted interface connection and resent results
+INC100106,2026-02-10 17:14,P3,Worklist,Pending list missing specimens,ICU,Nurse,2,0,2026-02-10 18:33,2026-02-11 01:02,Resolved,KB-006,0,Corrected worklist filter build
+INC100107,2026-02-11 07:50,P3,Worklist,Worklist not refreshing,Microbiology,Bench tech,1,0,2026-02-11 09:30,2026-02-12 10:21,Resolved,KB-006,1,Refreshed session and cleared cache
+INC100108,2026-02-12 11:53,P3,Label Printer,Wrong default printer,Core Lab,Nurse,1,0,2026-02-12 14:53,2026-02-13 01:40,Resolved,KB-001,0,Reassigned workstation default printer
+INC100109,2026-02-12 15:54,P1,Downtime,Unplanned LIS downtime,Core Lab,Bench tech,3,1,2026-02-12 16:18,2026-02-12 20:08,Resolved,KB-008,0,Vendor restored service; downtime results backloaded
+INC100110,2026-02-12 18:37,P3,Label Printer,Wrong default printer,Outpatient Draw,Provider,1,0,2026-02-12 20:40,2026-02-13 06:21,Resolved,,0,Reassigned workstation default printer
+INC100111,2026-02-13 08:15,P3,Label Printer,Labels blank or faded,Outpatient Draw,Bench tech,1,0,2026-02-13 15:22,2026-02-14 01:28,Resolved,,1,Replaced ribbon and label stock
+INC100112,2026-02-13 22:50,P3,Label Printer,Printer not printing,Emergency Dept,Phlebotomist,1,0,2026-02-14 02:17,2026-02-14 18:58,Resolved,KB-001,0,Cleared jam and restarted printer
+INC100113,2026-02-14 16:55,P2,Analyzer Interface,Interface queue backed up,Core Lab,Provider,3,1,2026-02-14 17:08,2026-02-15 08:43,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100114,2026-02-14 21:25,P3,Label Printer,Labels blank or faded,Outpatient Draw,Nurse,1,0,2026-02-14 22:58,2026-02-15 02:16,Resolved,,0,Replaced ribbon and label stock
+INC100115,2026-02-16 00:42,P2,Result Correction,Result filed to wrong test,Emergency Dept,Nurse,2,0,2026-02-16 00:59,2026-02-17 14:56,Resolved,,1,Issued corrected report and notified provider
+INC100116,2026-02-16 07:23,P3,LIS Access,Account locked out,Core Lab,Bench tech,1,0,2026-02-16 13:30,2026-02-16 17:01,Resolved,KB-002,0,Unlocked account and verified login
+INC100117,2026-02-16 08:07,P3,LIS Access,Account locked out,Outpatient Draw,Bench tech,1,0,2026-02-16 11:05,2026-02-16 20:20,Resolved,KB-002,0,Unlocked account and verified login
+INC100118,2026-02-16 08:52,P3,LIS Access,Account locked out,Core Lab,Lab supervisor,1,0,2026-02-16 09:49,2026-02-16 21:10,Resolved,KB-002,0,Unlocked account and verified login
+INC100119,2026-02-17 17:24,P3,Label Printer,Labels blank or faded,Emergency Dept,Provider,1,0,2026-02-17 18:25,2026-02-17 21:19,Resolved,,0,Replaced ribbon and label stock
+INC100120,2026-02-17 18:36,P3,Order / Accession,Order cancelled after collection,Core Lab,Bench tech,2,0,2026-02-18 04:18,2026-02-18 11:09,Resolved,KB-004,0,Reinstated order and notified provider
+INC100121,2026-02-18 11:20,P3,Worklist,Pending list missing specimens,Outpatient Draw,Bench tech,2,0,2026-02-18 13:03,2026-02-19 02:35,Resolved,,0,Corrected worklist filter build
+INC100122,2026-02-18 11:47,P3,LIS Access,Password expired,ICU,Nurse,1,0,2026-02-18 13:51,2026-02-18 20:32,Resolved,,0,Reset password and verified login
+INC100123,2026-02-18 16:35,P3,Order / Accession,Duplicate order,ICU,Nurse,1,0,2026-02-18 19:46,2026-02-19 08:08,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100124,2026-02-20 05:54,P2,QC Lockout,New QC lot not built,Core Lab,Provider,2,0,2026-02-20 06:11,2026-02-20 09:18,Resolved,KB-007,0,Built QC lot and ranges in LIS
+INC100125,2026-02-20 08:15,P2,Analyzer Interface,Results not crossing to LIS,Microbiology,Provider,3,1,2026-02-20 08:25,2026-02-21 05:13,Resolved,KB-003,0,Restarted interface connection and resent results
+INC100126,2026-02-20 13:11,P2,Result Correction,Corrected report needed,Emergency Dept,Bench tech,3,1,2026-02-20 13:46,2026-02-20 18:27,Resolved,,0,Issued corrected report and notified provider
+INC100127,2026-02-21 11:35,P4,LIS Access,Missing security role,Emergency Dept,Lab supervisor,2,0,2026-02-21 17:48,2026-02-23 12:46,Resolved,,0,Added security role after manager approval
+INC100128,2026-02-21 12:47,P2,Result Correction,Corrected report needed,Core Lab,Lab supervisor,3,1,2026-02-21 13:25,2026-02-22 02:15,Resolved,KB-005,0,Issued corrected report and notified provider
+INC100129,2026-02-21 14:31,P3,Order / Accession,Duplicate order,Microbiology,Lab supervisor,1,0,2026-02-21 16:00,2026-02-21 18:13,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100130,2026-02-21 15:41,P3,Label Printer,Labels blank or faded,Core Lab,Lab supervisor,1,0,2026-02-21 18:45,2026-02-21 19:38,Resolved,,0,Replaced ribbon and label stock
+INC100131,2026-02-21 21:24,P2,Analyzer Interface,Interface queue backed up,Core Lab,Nurse,3,1,2026-02-21 21:31,2026-02-22 11:24,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100132,2026-02-22 13:36,P2,Analyzer Interface,Results not crossing to LIS,Core Lab,Nurse,3,1,2026-02-22 14:43,2026-02-23 10:51,Resolved,,0,Restarted interface connection and resent results
+INC100133,2026-02-22 14:15,P3,Label Printer,Wrong default printer,Emergency Dept,Lab supervisor,1,0,2026-02-22 16:20,2026-02-22 22:07,Resolved,KB-001,0,Reassigned workstation default printer
+INC100134,2026-02-22 15:21,P3,Label Printer,Wrong default printer,Outpatient Draw,Lab supervisor,1,0,2026-02-22 23:30,2026-02-23 23:35,Resolved,,0,Reassigned workstation default printer
+INC100135,2026-02-22 15:38,P3,Label Printer,Labels blank or faded,Core Lab,Bench tech,1,0,2026-02-22 18:33,2026-02-23 07:24,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100136,2026-02-23 06:06,P3,LIS Access,Account locked out,Microbiology,Lab supervisor,1,0,2026-02-23 08:10,2026-02-23 20:57,Resolved,,0,Unlocked account and verified login
+INC100137,2026-02-23 07:21,P3,LIS Access,Account locked out,Blood Bank,Lab supervisor,1,0,2026-02-23 08:10,2026-02-23 21:55,Resolved,KB-002,0,Unlocked account and verified login
+INC100138,2026-02-23 19:26,P3,Label Printer,Labels blank or faded,Blood Bank,Phlebotomist,1,0,2026-02-23 22:50,2026-02-24 11:08,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100139,2026-02-24 09:17,P3,Label Printer,Labels blank or faded,Blood Bank,Bench tech,1,0,2026-02-24 14:43,2026-02-24 21:34,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100140,2026-02-24 17:11,P3,Worklist,Worklist not refreshing,Outpatient Draw,Nurse,1,0,2026-02-24 18:00,2026-02-25 06:19,Resolved,,0,Refreshed session and cleared cache
+INC100141,2026-02-25 04:47,P3,Label Printer,Wrong default printer,ICU,Bench tech,1,0,2026-02-25 12:09,2026-02-25 14:42,Resolved,KB-001,0,Reassigned workstation default printer
+INC100142,2026-02-25 09:55,P3,Label Printer,Printer not printing,Core Lab,Nurse,1,0,2026-02-25 12:08,2026-02-26 22:13,Resolved,KB-001,1,Cleared jam and restarted printer
+INC100143,2026-02-26 03:55,P3,Label Printer,Labels blank or faded,Blood Bank,Phlebotomist,1,0,2026-02-26 11:24,2026-02-26 17:19,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100144,2026-02-26 06:05,P3,LIS Access,Password expired,Blood Bank,Lab supervisor,1,0,2026-02-26 13:49,2026-02-26 15:08,Resolved,KB-002,0,Reset password and verified login
+INC100145,2026-02-26 09:03,P3,Order / Accession,Order not found for specimen,ICU,Lab supervisor,1,0,2026-02-26 12:24,2026-02-26 23:10,Resolved,KB-004,0,Located order and relinked specimen
+INC100146,2026-02-26 15:26,P3,Worklist,Pending list missing specimens,Outpatient Draw,Provider,2,0,2026-02-26 16:27,2026-02-26 19:33,Resolved,KB-006,0,Corrected worklist filter build
+INC100147,2026-02-27 11:25,P3,Order / Accession,Order cancelled after collection,Core Lab,Lab supervisor,3,1,2026-02-27 12:38,2026-02-28 12:49,Resolved,,1,Reinstated order and notified provider
+INC100148,2026-02-27 13:08,P3,Label Printer,Labels blank or faded,Emergency Dept,Nurse,1,0,2026-02-27 15:44,2026-02-28 08:13,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100149,2026-02-27 15:53,P2,QC Lockout,QC failure blocking results,Core Lab,Provider,2,0,2026-02-27 16:04,2026-02-27 20:56,Resolved,KB-007,0,"Reviewed QC, recalibrated, released hold"
+INC100150,2026-02-28 00:22,P3,Order / Accession,Duplicate order,Microbiology,Lab supervisor,1,0,2026-02-28 03:01,2026-02-28 05:24,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100151,2026-02-28 10:45,P3,Label Printer,Wrong default printer,Blood Bank,Nurse,1,0,2026-02-28 13:48,2026-03-01 00:34,Resolved,,1,Reassigned workstation default printer
+INC100152,2026-03-01 00:59,P3,Label Printer,Wrong default printer,Outpatient Draw,Phlebotomist,1,0,2026-03-01 01:58,2026-03-01 15:44,Resolved,KB-001,0,Reassigned workstation default printer
+INC100153,2026-03-01 06:19,P2,Analyzer Interface,Results not crossing to LIS,Core Lab,Bench tech,3,1,2026-03-01 06:29,2026-03-02 01:23,Resolved,,0,Restarted interface connection and resent results
+INC100154,2026-03-02 04:28,P3,Order / Accession,Order not found for specimen,Outpatient Draw,Nurse,1,0,2026-03-02 06:55,2026-03-03 00:05,Resolved,KB-004,1,Located order and relinked specimen
+INC100155,2026-03-02 06:03,P3,LIS Access,Account locked out,Outpatient Draw,Lab supervisor,1,0,2026-03-02 09:33,2026-03-03 01:12,Resolved,KB-002,0,Unlocked account and verified login
+INC100156,2026-03-02 10:52,P2,QC Lockout,New QC lot not built,Blood Bank,Lab supervisor,2,0,2026-03-02 11:04,2026-03-02 17:22,Resolved,,0,Built QC lot and ranges in LIS
+INC100157,2026-03-02 13:27,P3,Label Printer,Wrong default printer,Core Lab,Phlebotomist,1,0,2026-03-02 17:02,2026-03-03 00:36,Resolved,,0,Reassigned workstation default printer
+INC100158,2026-03-03 12:26,P3,Label Printer,Printer not printing,Core Lab,Nurse,1,0,2026-03-03 13:48,2026-03-03 21:12,Resolved,KB-001,0,Cleared jam and restarted printer
+INC100159,2026-03-03 13:35,P3,Label Printer,Labels blank or faded,Blood Bank,Provider,1,0,2026-03-03 16:36,2026-03-03 19:13,Resolved,,0,Replaced ribbon and label stock
+INC100160,2026-03-03 14:27,P3,Order / Accession,Duplicate order,Microbiology,Provider,1,0,2026-03-03 15:22,2026-03-04 08:39,Resolved,,0,Cancelled duplicate with provider approval
+INC100161,2026-03-03 20:09,P2,QC Lockout,New QC lot not built,Blood Bank,Bench tech,2,0,2026-03-03 20:19,2026-03-04 04:57,Resolved,KB-007,0,Built QC lot and ranges in LIS
+INC100162,2026-03-04 11:40,P2,Analyzer Interface,Results not crossing to LIS,Core Lab,Provider,3,1,2026-03-04 11:51,2026-03-05 19:54,Resolved,,1,Restarted interface connection and resent results
+INC100163,2026-03-04 14:44,P2,Result Correction,Result filed to wrong test,Blood Bank,Bench tech,2,0,2026-03-04 14:58,2026-03-04 21:21,Resolved,KB-005,0,Issued corrected report and notified provider
+INC100164,2026-03-05 11:46,P2,Analyzer Interface,Interface queue backed up,Core Lab,Nurse,2,0,2026-03-05 12:09,2026-03-05 13:27,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100165,2026-03-06 01:56,P3,LIS Access,Password expired,ICU,Nurse,1,0,2026-03-06 03:21,2026-03-06 06:35,Resolved,,0,Reset password and verified login
+INC100166,2026-03-07 06:04,P3,Worklist,Pending list missing specimens,Emergency Dept,Provider,2,0,2026-03-07 13:59,2026-03-07 10:34,Resolved,KB-006,0,Corrected worklist filter build
+INC100167,2026-03-07 06:26,P3,Label Printer,Printer not printing,Outpatient Draw,Bench tech,1,0,2026-03-07 09:52,2026-03-07 12:24,Resolved,KB-001,0,Cleared jam and restarted printer
+INC100168,2026-03-07 08:06,P2,Analyzer Interface,Results not crossing to LIS,Core Lab,Lab supervisor,2,0,2026-03-07 08:28,2026-03-07 12:30,Resolved,,0,Restarted interface connection and resent results
+INC100169,2026-03-07 08:52,P3,Order / Accession,Order cancelled after collection,ICU,Nurse,2,0,2026-03-07 11:36,2026-03-07 14:46,Resolved,KB-004,0,Reinstated order and notified provider
+INC100170,2026-03-08 06:23,P3,Label Printer,Labels blank or faded,ICU,Provider,1,0,2026-03-08 08:24,2026-03-08 22:18,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100171,2026-03-08 08:08,P2,Analyzer Interface,Interface queue backed up,Microbiology,Lab supervisor,3,1,2026-03-08 08:19,2026-03-08 17:29,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100172,2026-03-08 08:35,P2,QC Lockout,New QC lot not built,Blood Bank,Provider,2,0,2026-03-08 08:53,2026-03-08 11:54,Resolved,KB-007,0,Built QC lot and ranges in LIS
+INC100173,2026-03-08 13:15,P3,Label Printer,Labels blank or faded,Outpatient Draw,Provider,1,0,2026-03-08 14:05,2026-03-08 21:47,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100174,2026-03-08 22:50,P3,LIS Access,Password expired,Microbiology,Nurse,1,0,2026-03-09 01:55,2026-03-09 09:02,Resolved,KB-002,0,Reset password and verified login
+INC100175,2026-03-09 01:25,P2,Analyzer Interface,Interface queue backed up,Core Lab,Phlebotomist,2,0,2026-03-09 01:38,2026-03-09 02:53,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100176,2026-03-09 08:14,P3,LIS Access,Account locked out,ICU,Phlebotomist,1,0,2026-03-09 16:35,2026-03-09 12:49,Resolved,KB-002,0,Unlocked account and verified login
+INC100177,2026-03-09 20:22,P3,Worklist,Pending list missing specimens,ICU,Provider,2,0,2026-03-09 22:30,2026-03-10 14:28,Resolved,KB-006,0,Corrected worklist filter build
+INC100178,2026-03-09 22:08,P3,Order / Accession,Order not found for specimen,ICU,Lab supervisor,1,0,2026-03-09 23:12,2026-03-10 21:06,Resolved,,1,Located order and relinked specimen
+INC100179,2026-03-09 22:33,P3,Order / Accession,Order not found for specimen,ICU,Nurse,1,0,2026-03-09 23:42,2026-03-10 15:16,Resolved,,0,Located order and relinked specimen
+INC100180,2026-03-10 09:26,P3,Order / Accession,Duplicate order,Blood Bank,Provider,1,0,2026-03-10 11:47,2026-03-10 16:15,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100181,2026-03-10 20:49,P3,LIS Access,Account locked out,Blood Bank,Bench tech,1,0,2026-03-11 00:15,2026-03-11 06:35,Resolved,,0,Unlocked account and verified login
+INC100182,2026-03-10 21:55,P2,Analyzer Interface,Results not crossing to LIS,Microbiology,Lab supervisor,2,0,2026-03-10 22:04,2026-03-11 03:23,Resolved,KB-003,0,Restarted interface connection and resent results
+INC100183,2026-03-12 08:05,P3,Order / Accession,Duplicate order,Outpatient Draw,Provider,1,0,2026-03-12 15:51,2026-03-13 01:29,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100184,2026-03-12 09:16,P3,Order / Accession,Order cancelled after collection,Microbiology,Nurse,2,0,2026-03-12 11:10,2026-03-13 12:14,Resolved,,1,Reinstated order and notified provider
+INC100185,2026-03-12 09:41,P3,Label Printer,Wrong default printer,Outpatient Draw,Bench tech,1,0,2026-03-12 12:51,2026-03-12 20:26,Resolved,,0,Reassigned workstation default printer
+INC100186,2026-03-12 12:35,P3,Label Printer,Wrong default printer,Blood Bank,Bench tech,1,0,2026-03-12 15:37,2026-03-13 03:23,Resolved,KB-001,0,Reassigned workstation default printer
+INC100187,2026-03-13 06:12,P3,Label Printer,Printer not printing,ICU,Nurse,1,0,2026-03-13 07:44,2026-03-13 16:28,Resolved,KB-001,0,Cleared jam and restarted printer
+INC100188,2026-03-13 09:26,P3,Worklist,Pending list missing specimens,Emergency Dept,Phlebotomist,2,0,2026-03-13 10:44,2026-03-14 10:15,Resolved,,1,Corrected worklist filter build
+INC100189,2026-03-13 11:26,P3,Order / Accession,Duplicate order,ICU,Bench tech,1,0,2026-03-13 13:07,2026-03-13 16:16,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100190,2026-03-13 12:57,P2,Analyzer Interface,Results not crossing to LIS,Microbiology,Nurse,3,1,2026-03-13 13:20,2026-03-14 01:03,Resolved,KB-003,0,Restarted interface connection and resent results
+INC100191,2026-03-13 19:27,P2,Analyzer Interface,Interface queue backed up,Blood Bank,Lab supervisor,3,1,2026-03-13 19:47,2026-03-14 15:23,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100192,2026-03-14 09:34,P2,QC Lockout,New QC lot not built,Core Lab,Nurse,2,0,2026-03-14 09:45,2026-03-14 15:34,Resolved,KB-007,0,Built QC lot and ranges in LIS
+INC100193,2026-03-14 10:14,P3,Order / Accession,Duplicate order,Microbiology,Provider,1,0,2026-03-14 11:48,2026-03-15 05:34,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100194,2026-03-14 14:58,P2,Analyzer Interface,Interface queue backed up,Core Lab,Phlebotomist,3,1,2026-03-14 15:11,2026-03-15 15:31,Resolved,KB-003,0,Cleared stuck message and released queue
+INC100195,2026-03-14 16:34,P2,Result Correction,Corrected report needed,ICU,Phlebotomist,2,0,2026-03-14 16:45,2026-03-14 20:29,Resolved,,0,Issued corrected report and notified provider
+INC100196,2026-03-15 02:04,P3,Order / Accession,Duplicate order,Microbiology,Nurse,1,0,2026-03-15 04:57,2026-03-15 12:57,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100197,2026-03-15 09:19,P3,Label Printer,Wrong default printer,Emergency Dept,Provider,1,0,2026-03-15 10:19,2026-03-15 13:55,Resolved,KB-001,0,Reassigned workstation default printer
+INC100198,2026-03-15 09:31,P3,Label Printer,Labels blank or faded,Core Lab,Bench tech,1,0,2026-03-15 10:55,2026-03-17 07:38,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100199,2026-03-15 13:02,P3,Order / Accession,Duplicate order,Microbiology,Nurse,1,0,2026-03-15 18:35,2026-03-15 19:03,Resolved,,0,Cancelled duplicate with provider approval
+INC100200,2026-03-15 20:41,P4,Downtime,Planned downtime question,Blood Bank,Bench tech,1,0,2026-03-15 23:20,2026-03-16 13:38,Resolved,KB-008,0,Sent downtime schedule and procedure
+INC100201,2026-03-16 01:46,P2,Analyzer Interface,Instrument offline in LIS,Core Lab,Phlebotomist,2,0,2026-03-16 01:58,2026-03-16 06:50,Resolved,KB-003,0,Re-established instrument connection
+INC100202,2026-03-16 01:55,P2,Analyzer Interface,Instrument offline in LIS,Core Lab,Provider,2,0,2026-03-16 02:06,2026-03-16 03:12,Resolved,KB-003,0,Re-established instrument connection
+INC100203,2026-03-16 06:12,P2,Analyzer Interface,Interface queue backed up,Blood Bank,Lab supervisor,2,0,2026-03-16 06:20,2026-03-16 07:47,Resolved,,0,Cleared stuck message and released queue
+INC100204,2026-03-16 06:18,P3,Label Printer,Labels blank or faded,Emergency Dept,Provider,1,0,2026-03-16 09:49,2026-03-16 20:07,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100205,2026-03-16 07:35,P3,Label Printer,Printer not printing,Emergency Dept,Provider,1,0,2026-03-16 09:31,2026-03-17 05:47,Resolved,KB-001,1,Cleared jam and restarted printer
+INC100206,2026-03-16 07:38,P3,LIS Access,Account locked out,Emergency Dept,Lab supervisor,1,0,2026-03-16 08:45,2026-03-16 17:08,Resolved,KB-002,0,Unlocked account and verified login
+INC100207,2026-03-16 11:01,P3,Label Printer,Wrong default printer,Emergency Dept,Nurse,1,0,2026-03-16 12:37,2026-03-16 23:03,Resolved,KB-001,0,Reassigned workstation default printer
+INC100208,2026-03-16 11:10,P2,Result Correction,Corrected report needed,Outpatient Draw,Provider,2,0,2026-03-16 11:31,2026-03-16 17:04,Resolved,KB-005,0,Issued corrected report and notified provider
+INC100209,2026-03-17 07:41,P2,Analyzer Interface,Results not crossing to LIS,Microbiology,Provider,3,1,2026-03-17 07:59,2026-03-18 06:18,Resolved,KB-003,0,Restarted interface connection and resent results
+INC100210,2026-03-17 10:50,P2,Result Correction,Corrected report needed,Emergency Dept,Bench tech,2,0,2026-03-17 10:58,2026-03-17 14:05,Resolved,KB-005,0,Issued corrected report and notified provider
+INC100211,2026-03-17 13:42,P2,Analyzer Interface,Instrument offline in LIS,Core Lab,Nurse,3,1,2026-03-17 14:07,2026-03-17 22:08,Resolved,KB-003,0,Re-established instrument connection
+INC100212,2026-03-18 16:49,P3,Label Printer,Labels blank or faded,Emergency Dept,Lab supervisor,1,0,2026-03-18 17:56,2026-03-19 09:26,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100213,2026-03-18 18:24,P3,LIS Access,Password expired,Outpatient Draw,Lab supervisor,1,0,2026-03-18 21:18,2026-03-19 00:21,Resolved,,0,Reset password and verified login
+INC100214,2026-03-18 19:50,P2,Analyzer Interface,Results not crossing to LIS,Core Lab,Bench tech,3,1,2026-03-18 20:49,2026-03-19 20:35,Resolved,KB-003,0,Restarted interface connection and resent results
+INC100215,2026-03-18 23:06,P3,LIS Access,Password expired,ICU,Bench tech,1,0,2026-03-19 02:25,2026-03-19 14:19,Resolved,KB-002,0,Reset password and verified login
+INC100216,2026-03-21 10:53,P2,QC Lockout,New QC lot not built,Core Lab,Provider,2,0,2026-03-21 11:05,2026-03-21 16:39,Resolved,,0,Built QC lot and ranges in LIS
+INC100217,2026-03-22 05:03,P4,LIS Access,Missing security role,Microbiology,Phlebotomist,2,0,2026-03-22 06:55,2026-03-22 19:57,Resolved,KB-009,0,Added security role after manager approval
+INC100218,2026-03-22 12:41,P2,QC Lockout,QC failure blocking results,Microbiology,Lab supervisor,2,0,2026-03-22 13:02,2026-03-22 17:09,Resolved,KB-007,0,"Reviewed QC, recalibrated, released hold"
+INC100219,2026-03-22 14:38,P3,Label Printer,Wrong default printer,Emergency Dept,Bench tech,1,0,2026-03-22 17:16,2026-03-22 23:18,Resolved,KB-001,0,Reassigned workstation default printer
+INC100220,2026-03-23 02:53,P3,Order / Accession,Order cancelled after collection,Blood Bank,Phlebotomist,2,0,2026-03-23 08:40,2026-03-23 12:27,Resolved,KB-004,0,Reinstated order and notified provider
+INC100221,2026-03-23 06:08,P2,Result Correction,Corrected report needed,Blood Bank,Lab supervisor,2,0,2026-03-23 06:25,2026-03-23 09:09,Resolved,KB-005,0,Issued corrected report and notified provider
+INC100222,2026-03-23 09:51,P2,Analyzer Interface,Results not crossing to LIS,Blood Bank,Phlebotomist,3,1,2026-03-23 09:59,2026-03-23 19:04,Resolved,KB-003,0,Restarted interface connection and resent results
+INC100223,2026-03-23 14:39,P3,Label Printer,Labels blank or faded,Blood Bank,Lab supervisor,1,0,2026-03-23 17:59,2026-03-23 23:14,Resolved,KB-001,0,Replaced ribbon and label stock
+INC100224,2026-03-23 19:21,P3,Label Printer,Wrong default printer,Core Lab,Phlebotomist,1,0,2026-03-23 21:01,2026-03-24 09:58,Resolved,KB-001,0,Reassigned workstation default printer
+INC100225,2026-03-23 21:53,P3,Order / Accession,Order not found for specimen,Outpatient Draw,Nurse,1,0,2026-03-24 03:48,2026-03-24 14:17,Resolved,KB-004,0,Located order and relinked specimen
+INC100226,2026-03-24 00:05,P3,Order / Accession,Duplicate order,Core Lab,Nurse,1,0,2026-03-24 01:18,2026-03-24 19:28,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100227,2026-03-24 09:58,P3,Order / Accession,Order not found for specimen,Emergency Dept,Phlebotomist,1,0,2026-03-24 13:09,2026-03-24 21:09,Resolved,KB-004,0,Located order and relinked specimen
+INC100228,2026-03-24 12:15,P2,Result Correction,Corrected report needed,Blood Bank,Lab supervisor,2,0,2026-03-24 12:40,2026-03-24 18:57,Resolved,KB-005,0,Issued corrected report and notified provider
+INC100229,2026-03-25 13:58,P2,Result Correction,Result filed to wrong test,Emergency Dept,Lab supervisor,2,0,2026-03-25 14:04,2026-03-25 18:45,Resolved,KB-005,0,Issued corrected report and notified provider
+INC100230,2026-03-25 15:07,P2,QC Lockout,New QC lot not built,Core Lab,Bench tech,2,0,2026-03-25 15:29,2026-03-25 18:12,Resolved,KB-007,0,Built QC lot and ranges in LIS
+INC100231,2026-03-25 20:23,P2,Analyzer Interface,Instrument offline in LIS,Core Lab,Bench tech,3,1,2026-03-25 21:05,2026-03-26 06:55,Resolved,KB-003,0,Re-established instrument connection
+INC100232,2026-03-26 08:44,P3,Label Printer,Wrong default printer,Outpatient Draw,Lab supervisor,1,0,2026-03-26 11:45,2026-03-27 22:04,Resolved,KB-001,0,Reassigned workstation default printer
+INC100233,2026-03-27 15:14,P2,Analyzer Interface,Interface queue backed up,Microbiology,Bench tech,3,1,2026-03-27 15:20,2026-03-28 01:34,Resolved,,0,Cleared stuck message and released queue
+INC100234,2026-03-27 16:21,P3,Order / Accession,Order not found for specimen,Emergency Dept,Bench tech,1,0,2026-03-27 17:50,,In Progress,,0,
+INC100235,2026-03-28 02:50,P3,Label Printer,Wrong default printer,Emergency Dept,Lab supervisor,1,0,2026-03-28 04:00,,Open,,0,
+INC100236,2026-03-28 04:44,P2,Analyzer Interface,Instrument offline in LIS,Core Lab,Phlebotomist,2,0,2026-03-28 05:20,2026-03-29 01:56,Resolved,,1,Re-established instrument connection
+INC100237,2026-03-28 12:16,P3,Order / Accession,Duplicate order,Microbiology,Phlebotomist,1,0,2026-03-28 14:34,2026-03-29 04:24,Resolved,KB-004,0,Cancelled duplicate with provider approval
+INC100238,2026-03-28 20:33,P3,Label Printer,Printer not printing,Blood Bank,Lab supervisor,1,0,2026-03-29 00:07,2026-03-29 13:17,Resolved,KB-001,0,Cleared jam and restarted printer
+INC100239,2026-03-29 13:42,P3,Order / Accession,Order cancelled after collection,ICU,Nurse,2,0,2026-03-29 14:47,,In Progress,,0,
+INC100240,2026-03-29 19:07,P3,Worklist,Worklist not refreshing,Microbiology,Lab supervisor,1,0,2026-03-29 20:16,,Open,,0,

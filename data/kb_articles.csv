@@ -1,0 +1,10 @@
+kb_id,title,path
+KB-001,Specimen label printer not printing or printing blank,kb/KB-001-label-printer.md
+KB-002,Account locked out or password expired,kb/KB-002-account-lockout.md
+KB-003,Analyzer results not crossing to the LIS,kb/KB-003-analyzer-interface.md
+KB-004,Order not found when receiving a specimen,kb/KB-004-order-not-found.md
+KB-005,Correcting a released result,kb/KB-005-result-correction.md
+KB-006,Worklist or pending list not refreshing,kb/KB-006-worklist-refresh.md
+KB-007,QC failure blocking patient results,kb/KB-007-qc-lockout.md
+KB-008,LIS downtime: what to do,kb/KB-008-downtime.md
+KB-009,Requesting new user access or a security role,kb/KB-009-access-request.md
