@@ -17,5 +17,5 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: pip install -r requirements-dev.txt
       - run: pytest -v
-      - name: Run triage on sample data
-        run: python -m hl7_triage data/messages --out reports
+      - name: build database and reports
+        run: python -m support_desk
