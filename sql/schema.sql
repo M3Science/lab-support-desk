@@ -42,16 +42,23 @@ CREATE INDEX idx_tickets_opened ON tickets(opened_at);
 -- One row per ticket with elapsed times and SLA outcomes.
 -- Times are calendar hours (no business-hours calendar; see README limitations).
 CREATE VIEW ticket_sla AS
+WITH secs AS (
+    SELECT t.*,
+           -- whole seconds, so boundary cases compare exactly (no floating-point drift)
+           CAST(strftime('%s', t.first_response_at) AS INTEGER) - CAST(strftime('%s', t.opened_at) AS INTEGER) AS response_secs,
+           CAST(strftime('%s', t.resolved_at) AS INTEGER)       - CAST(strftime('%s', t.opened_at) AS INTEGER) AS resolve_secs
+    FROM tickets t
+)
 SELECT
-    t.*,
-    ROUND((julianday(t.first_response_at) - julianday(t.opened_at)) * 24 * 60, 1) AS response_minutes,
-    ROUND((julianday(t.resolved_at)       - julianday(t.opened_at)) * 24, 2)      AS resolve_hours,
+    s.ticket_id, s.opened_at, s.priority, s.category, s.subcategory, s.location,
+    s.requester_role, s.assigned_tier, s.escalated, s.first_response_at, s.resolved_at,
+    s.status, s.kb_article, s.reopened, s.resolution,
+    ROUND(s.response_secs / 60.0, 1)   AS response_minutes,
+    ROUND(s.resolve_secs / 3600.0, 2)  AS resolve_hours,
     p.response_minutes AS response_target_min,
     p.resolve_hours    AS resolve_target_hours,
-    CASE WHEN (julianday(t.first_response_at) - julianday(t.opened_at)) * 24 * 60 <= p.response_minutes
-         THEN 1 ELSE 0 END AS response_met,
-    CASE WHEN t.resolved_at IS NULL THEN NULL
-         WHEN (julianday(t.resolved_at) - julianday(t.opened_at)) * 24 <= p.resolve_hours
-         THEN 1 ELSE 0 END AS resolve_met
-FROM tickets t
+    CASE WHEN s.response_secs <= p.response_minutes * 60 THEN 1 ELSE 0 END AS response_met,
+    CASE WHEN s.resolved_at IS NULL THEN NULL
+         WHEN s.resolve_secs <= p.resolve_hours * 3600 THEN 1 ELSE 0 END AS resolve_met
+FROM secs s
 JOIN sla_policy p USING (priority);
